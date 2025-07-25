@@ -5,4 +5,4 @@ FROM php:8.2-apache
 RUN docker-php-ext-install mysqli curl
 
 # 3. Bizning bot kodimizni (bot.php) web-serverning to'g'ri papkasiga nusxalaymiz
-COPY bot.php /var/www/html/
+COPY KinoRixBot.php /var/www/html/
